@@ -1,0 +1,66 @@
+.login {  
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url("../../assets/img/header-bg.jpg");
+  }
+  
+  .login__signIn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    display: flex;
+    color:white;
+    border-radius: 20px;
+  }
+  
+  .signIn__fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .signIn__Inputs {
+    border-radius: 10px;
+    width: 20vw;
+    font-size: 30px;
+    outline-width: 0;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(241, 242, 181);
+    padding: 5px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    color: orange;
+  }
+  
+  .signIn__btn {
+    padding: 0px;
+    width: 10vw;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #f5a31a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .other__auth {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
